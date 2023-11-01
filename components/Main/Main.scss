@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+                                                         // mixins
+@mixin back{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin flexy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin stylee{
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+
+
+p{
+  font-family: 'Lora';
+}
+
+.air_back{
+  height: 1000px;
+  background-image: linear-gradient(330deg, rgba(11, 29, 38, 0.00) 31.06%, #0B1D26 108.93%), url(../src/assets/air.png);
+  @include back;
+ 
+}
+.head_p{
+  margin-top: 58px;
+  margin-left: 5%;
+  font-style: normal;
+  font-size: 32px;
+  @include stylee;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+.head_p_1{
+  margin-top: 67px;
+font-size: 18px;
+font-style: normal;
+@include stylee;
+margin-left: 21px;
+transition: 0.55s;
+
+}
+.head_p_1:hover{
+  transform:scale(1.2)
+  
+
+}
+.back{
+  width: 100%;
+  height: 1422px;
+  background-image: url(../src/assets/nature_1.png);
+  @include back;
+  margin-top: -281px;
+  
+}
+.icon_withText{
+  margin-top: 67px;
+font-size: 17px;
+font-style: normal;
+@include stylee;
+}
+.AllBoxes{
+  @include flexy;
+  
+}
+.flexible_box{
+  @include flexy;
+  margin-left: 20px;
+}
+.Main_t{
+  margin-left: 9%;
+  width: 950px;
+  font-size: 68px;
+  font-style: normal;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #fff;
+
+
+
+}
+.log_net{
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items: baseline;
+  margin-left: 140px;
+ 
+}
+.main_heading{
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hike{
+  margin: 0 auto;
+  margin-left: 310px;
+  color:(#FBD784);
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+.line{
+  width: 272px;
+height: 2px;
+color:(#FBD784);
+margin-bottom: 7.5%;
+margin-left: 230px;
+}
+.last_back_pict{
+  background-image: url(../src/assets/nature_2.png ) ;
+  @include back;
+  height: 926px;
+  margin-top: -719px;
+
+}
+.follow{
+  font-size: 14px;
+font-style: normal;
+@include stylee;
+color: white;
+
+}
+.number_1{
+opacity: 0.1;
+font-size: 240px;
+@include stylee;
+line-height: 240px;
+margin-left: 4%;
+
+}
+.main_footer_back{
+  background: ( #0B1D26);
+  box-shadow: 10px 0px 100px 0px rgba(0, 0, 0, 20);
+  
+}
+.heading{
+color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 555px;
+} 
+.box_info{
+font-size: 18px;
+@include stylee;
+line-height: 32px; 
+width: 632px;
+margin-top: 50px;
+}
+.img_1{
+  margin-right: 20px;
+}
+.acc{
+  font-size: 17px;
+font-style: normal;
+@include stylee;
+margin-left: 30px;
+margin-top: -27px;
+}
+.img_2{
+  margin-left: 790px;
+margin-top: -380px;
+ 
+}
+.new_Box{
+  margin-top: -469px;
+}
+.line_1{
+margin-left: 220px;
+color:(#FBD784);
+}
+.main_cards_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.img_4{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.new_box_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -500px;
+}
+.main_cards_info_2{
+  margin-top: 30%;
+  margin-left: 5%;
+}
+.head_p_3{
+  margin-left: 5%;
+  color: white;
+  font-style: normal;
+  font-size: 32px;
+  @include stylee;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+  margin-top: 20%;
+}
+.info_left_side{
+  @include stylee;
+  margin-top: 3%;
+ 
+}
+.copyry{
+  @include stylee;
+  opacity: 0.5;
+  margin-top: 5%;
+}
+.foot_left_side{
+  margin-left: 5%;
+}
+.first_col{
+  color: #FBD784;
+  font-size: 24px;
+}
